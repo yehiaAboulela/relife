@@ -1,0 +1,115 @@
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 90px;
+  height: 70px;
+  background-color: #609644;
+  position: fixed;
+  z-index: 999;
+}
+a {
+  color: white;
+}
+.paragraph-main {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #609644;
+}
+.paragraph-black {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.relife-italic {
+  color: white;
+}
+.account-icon {
+  width: 39px;
+}
+
+header nav .nav-element {
+  font-size: 1.3rem;
+  margin: 0 30px;
+  transition: 0.1s;
+}
+
+header nav .nav-element:hover {
+  color: #c0c0c0;
+}
+header nav .active {
+  color: #c0c0c0;
+}
+.account-dropdown {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+.acc-icon-arrow i {
+  color: white;
+  font-size: 1.2rem;
+  padding-left: 20px;
+}
+
+.acc-icon-arrow {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.account-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #609644;
+}
+
+.account-dropdown .dropdown-content .dropdown-link {
+  padding: 10px 20px;
+  font-size: 1rem;
+  display: block;
+}
+
+.account-dropdown .dropdown-content .dropdown-link:hover {
+  background-color: #7fa16e;
+}
+
+.account-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-about {
+  width: 57%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-heding {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+main p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  text-align: center;
+  color: #609644;
+  line-height: 40px;
+  font-weight: 600;
+}
+.relife-italic_span {
+  color: #609644;
+  font-size: 1.5rem;
+}
+.victor-pic {
+  width: 40%;
+}

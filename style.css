@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+/* login page styling */
+.login-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/relifeProject/REFERENCES/Reference2.png);
+  background-size: cover;
+  background-position: center;
+}
+/* font-family: 'Lilita One', cursive; */
+
+.login-section .login-form {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.login-section .login-form h1 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.relife-italic {
+  font-size: 2rem;
+  font-style: italic;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #609644;
+}
+.login-section .login-form input {
+  width: 100%;
+  padding: 18px 0 18px 20px;
+  font-size: 1.2rem;
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(99, 99, 99);
+}
+.login-btn {
+  font-size: 1.7rem;
+  padding: 15px 30px;
+  margin-top: 18px;
+  border: none;
+  background-color: #609644;
+  color: white;
+  font-family: "Lilita One", cursive;
+  border-radius: 999px;
+  box-shadow: #73b651 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.login-btn:hover {
+  transform: scale(1.09);
+}
+
+.login-section .register-btn {
+  position: absolute;
+  top: 93%;
+  margin-left: 100px;
+  display: flex;
+}
+
+.login-section .register-btn h1 {
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-left: 20px;
+  text-transform: uppercase;
+  color: rgb(102, 101, 101);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.login-section .register-btn h1:hover {
+  color: black;
+}
+.login-section .register-btn .register-now {
+  padding-right: 20px;
+  border-right: 1px solid black;
+}
+
+.login-section .register-btn h1 span {
+  font-size: 1.5rem;
+}
+/* registration-page stytlinh */

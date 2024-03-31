@@ -1,0 +1,186 @@
+.relife-italic {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  max-height: 800px;
+}
+
+/* header styling */
+header {
+  width: 100%;
+  height: 10%;
+  padding: 0 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #609644;
+}
+
+div a {
+  color: white;
+  padding: 0 20px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+div a:hover {
+  color: #c0c0c0;
+}
+
+.login-wrd {
+  border-right: 1px solid white;
+}
+
+.register-wrd {
+  color: #c0c0c0;
+}
+
+/* form styling */
+form {
+  width: 100%;
+  height: 90%;
+}
+
+.register-now__top__sec {
+  width: 100%;
+  height: 30%;
+}
+form div .register-now__heading {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.sign-up__options {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 0 400px;
+}
+.sign-up__with {
+  border: 1px solid rgb(90, 90, 90);
+  padding: 10px 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  color: #8f8f8f;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.sign-up__with:hover {
+  background-color: black;
+  color: white;
+}
+
+hr {
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-70%, 0);
+}
+
+/* low sec styling */
+
+.register_now__low__sec {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  height: 63%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px;
+}
+
+.text-input {
+  padding: 15px 0 15px 15px;
+  font-size: 1rem;
+  border-radius: 15px;
+  border: 1px solid rgb(110, 110, 110);
+  width: 100%;
+}
+.text-input:focus {
+  outline: none;
+}
+.form-main {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.low-sec__left {
+  width: 27%;
+}
+.low-sec__middel {
+  width: 27%;
+}
+.low-sec__middel textarea {
+  width: 100%;
+  height: 170px;
+  border-radius: 20px;
+  font-size: 1rem;
+  padding: 10px 0 0 20px;
+}
+.low-sec__right {
+  width: 27%;
+  height: 190px;
+}
+.low-sec__right h1 {
+  text-align: center;
+  color: #8f8f8f;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.low-sec__right .birthday {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.low-sec__right .birthday input {
+  width: 30%;
+  padding: 10px 0 10px 10px;
+  font-size: 1rem;
+  border-radius: 15px;
+  border: 1px solid rgb(110, 110, 110);
+  margin: 20px 0;
+}
+
+.low-sec__right .birthday input:focus {
+  outline: none;
+}
+
+.finish-btn {
+  position: absolute;
+  left: 80%;
+  bottom: 50px;
+  padding: 10px 30px;
+  border: none;
+  background-color: #609644;
+  color: white;
+  font-family: "Lilita One", cursive;
+  font-size: 2rem;
+  border-radius: 999px;
+  box-shadow: #73b651 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.finish-btn:hover {
+  transform: scale(1.1);
+}

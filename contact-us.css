@@ -1,0 +1,157 @@
+body {
+  background-color: #609644;
+}
+.contact-us__main {
+  width: 100%;
+  height: 100vh;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 90px;
+  height: 10%;
+  z-index: 999;
+}
+a {
+  color: white;
+}
+.paragraph-main {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 10px 0;
+}
+.paragraph-black {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.relife-italic {
+  color: #609644;
+}
+.account-icon {
+  width: 39px;
+}
+
+header nav .nav-element {
+  font-size: 1.3rem;
+  margin: 0 30px;
+  transition: 0.1s;
+}
+
+header nav .nav-element:hover {
+  color: #c0c0c0;
+}
+header nav .active {
+  color: #c0c0c0;
+}
+.account-dropdown {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+.acc-icon-arrow i {
+  color: white;
+  font-size: 1.2rem;
+  padding-left: 20px;
+}
+
+.acc-icon-arrow {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.account-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #609644;
+  border: 3px solid white;
+}
+
+.account-dropdown .dropdown-content .dropdown-link {
+  padding: 10px 20px;
+  font-size: 1rem;
+  display: block;
+}
+
+.account-dropdown .dropdown-content .dropdown-link:hover {
+  background-color: #7fa16e;
+}
+
+.account-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.line {
+  width: 90%;
+  height: 3px;
+  background-color: white;
+  margin: auto;
+}
+
+section {
+  width: 40%;
+  height: 70%;
+  max-height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.main-heading {
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.email-input {
+  width: 60%;
+  padding: 10px 5px 10px 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.message-input {
+  width: 100%;
+  padding: 20px 5px 190px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+.message-input:focus {
+  outline: none;
+}
+footer {
+  width: 100%;
+  height: 12%;
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  transform: translate(0, -100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.footer-icon {
+  width: 25px;
+  margin: 0 3px;
+}
+.footer-lift {
+  display: flex;
+  align-items: center;
+}
+.footer-lift p {
+  font-size: 1rem;
+  margin-left: 30px;
+  color: #7a7a7a;
+}

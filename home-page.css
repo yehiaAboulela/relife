@@ -1,0 +1,246 @@
+/* header styling */
+
+body {
+  background-image: url(/relifeProject/BACKGROUNDS/HOME-BACKGROUND2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 90px;
+  height: 70px;
+  background-color: #609644;
+  position: fixed;
+  z-index: 999;
+}
+a {
+  color: white;
+}
+.paragraph-main {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #609644;
+}
+.paragraph-black {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.relife-italic {
+  color: white;
+}
+.account-icon {
+  width: 39px;
+}
+
+header nav .nav-element {
+  font-size: 1.3rem;
+  margin: 0 30px;
+  transition: 0.1s;
+}
+
+header nav .nav-element:hover {
+  color: #c0c0c0;
+}
+header nav .active {
+  color: #c0c0c0;
+}
+.account-dropdown {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+}
+.acc-icon-arrow i {
+  color: white;
+  font-size: 1.2rem;
+  padding-left: 20px;
+}
+
+.acc-icon-arrow {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.account-dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #609644;
+}
+
+.account-dropdown .dropdown-content .dropdown-link {
+  padding: 10px 20px;
+  font-size: 1rem;
+  display: block;
+}
+
+.account-dropdown .dropdown-content .dropdown-link:hover {
+  background-color: #7fa16e;
+}
+
+.account-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* main styling */
+.home-page__main1 {
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+}
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  position: sticky;
+  top: 0;
+}
+.search-bar-container i {
+  font-size: 1rem;
+  padding: 13.2px 0 13.3px 15px;
+  background-color: #e2e2e2;
+  border-radius: 10px 0 0 10px;
+  margin-top: 13%;
+}
+.search-bar-container .search-bar {
+  width: 550px;
+  background-color: #e2e2e2;
+  padding: 12px 5px 12px 15px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  font-size: 1rem;
+  margin-top: 13%;
+}
+.search-bar-container .search-bar:focus {
+  outline: none;
+}
+
+.home-first__article {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+.main-heading {
+  font-family: "Londrina Outline", cursive;
+  text-align: center;
+  font-size: 400%;
+  letter-spacing: 4px;
+  color: #609644;
+}
+.victors {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.victor-person {
+  width: 9%;
+  margin: 20px 50px 0 50px;
+}
+
+.recycling-materials_p {
+  width: 70%;
+  margin-top: 2%;
+}
+
+.next-btn {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  border: none;
+  background-color: #609644;
+  color: white;
+  font-family: "Lilita One", cursive;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  box-shadow: #73b651 0px 7px 15px 0px;
+  cursor: pointer;
+  margin-left: 100%;
+}
+
+.next-btn i {
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+
+.home-article {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.article__parent {
+  width: 60%;
+  margin-top: 100px;
+}
+
+.img-p__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.article__parent .img-p__container img {
+  width: 20%;
+}
+
+.article__content {
+  width: 78%;
+}
+
+.article__content .article__heading {
+  font-size: 1.6rem;
+  margin-left: -90px;
+}
+
+.article__content p {
+  position: relative;
+  padding: 10px;
+}
+
+.article-four {
+  padding-left: 50px;
+}
+
+.examples-list {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.tow-examples h2 {
+  margin: 10px 0;
+  font-size: 1.4rem;
+  color: rgb(37, 36, 36);
+}
+
+.discover-btn {
+  padding: 10px 30px;
+  margin-top: 18px;
+  border: none;
+  background-color: #609644;
+  color: white;
+  font-family: "Lilita One", cursive;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  box-shadow: #73b651 0px 7px 15px 0px;
+  cursor: pointer;
+  margin-left: 100%;
+  position: sticky;
+}
